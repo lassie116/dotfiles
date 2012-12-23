@@ -27,7 +27,7 @@
   (setq yas/snippet-dirs "~/Library/elisp/yasnippet/snippets")
   (yas/initialize))
 
-(yasnippet-setting)
+;(yasnippet-setting)
 
 ;; my setting
 (line-number-mode 1)

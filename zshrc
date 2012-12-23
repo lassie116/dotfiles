@@ -34,7 +34,7 @@ setopt inc_append_history
 
 # aliases
 
-alias ls="ls -G"
+alias ls="ls --color"
 
 # for screen
 
