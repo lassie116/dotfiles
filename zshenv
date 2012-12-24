@@ -20,6 +20,8 @@ export PATH=$LOCAL_PATH:$HASKELL:$GAE_GO:$SBAZ_PATH:$AIRSDK:$BREW_PATH:$PATH
 # ruby
 export RUBYLIB=~/Library/rubylib/lib
 
+export EDITOR="emacs"
+
 
 
 
