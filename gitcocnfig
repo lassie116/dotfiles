@@ -1,0 +1,7 @@
+[alias]
+	l = log --pretty=format:'%C(cyan)%ai%Creset %an (%h)%C(red bold)%d%Creset%n%w(60)%s%n' --graph --all --date-order
+	s = status
+[core]
+	excludesfile = /home/lassie/.gitignore
+[credential]
+	helper = cache --timeout=3600
