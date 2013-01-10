@@ -29,6 +29,12 @@
 
 ;(yasnippet-setting)
 
+(defun lua-setting()
+    (setq auto-mode-alist (cons '("\.lua$" . lua-mode) auto-mode-alist))
+    (autoload 'lua-mode "lua-mode" "Lua editing mode." t))
+
+(lua-setting)
+
 ;; my setting
 (line-number-mode 1)
 (column-number-mode 1)
