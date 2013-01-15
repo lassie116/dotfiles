@@ -9,6 +9,7 @@ export LANG=ja_JP.UTF-8
 # path settings
 
 export LOCAL_PATH=~/bin
+export RBENV=~/.rbenv/bin
 
 export EDITOR="emacs"
 
