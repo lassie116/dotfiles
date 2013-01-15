@@ -32,6 +32,9 @@ setopt hist_ignore_dups     # ignore duplication command history list
 setopt share_history        # share command history data 
 setopt inc_append_history
 
+# for awesome with ibus
+xmodmap -e 'keysym Muhenkan = Super_L'
+
 # aliases
 
 alias ls="ls --color"
