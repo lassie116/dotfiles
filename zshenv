@@ -14,8 +14,9 @@ export GAE_GO=/opt/other/google_appengine
 export HASKELL=~/Library/Haskell/bin
 export AIRSDK=/opt/other/AdobeAIRSDK/bin
 export LOCAL_PATH=~/bin
+export RBENV=~/.rbenv/bin
 
-export PATH=$LOCAL_PATH:$HASKELL:$GAE_GO:$SBAZ_PATH:$AIRSDK:$BREW_PATH:$PATH
+export PATH=$LOCAL_PATH:$RBENV:$HASKELL:$GAE_GO:$SBAZ_PATH:$AIRSDK:$BREW_PATH:$PATH
 
 # ruby
 export RUBYLIB=~/Library/rubylib/lib
