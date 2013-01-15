@@ -6,6 +6,9 @@
 
 echo "loading zshrc"
 
+# path
+export PATH=$LOCAL_PATH:$RBENV:$PATH
+
 # main
 
 autoload colors
