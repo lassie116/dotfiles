@@ -35,6 +35,8 @@ setopt inc_append_history
 # aliases
 
 alias ls="ls -G"
+alias b="bundle"
+alias be="bundle exec"
 
 # for screen
 
