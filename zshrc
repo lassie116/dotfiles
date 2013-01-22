@@ -36,7 +36,9 @@ setopt share_history        # share command history data
 setopt inc_append_history
 
 # for awesome with ibus
-xmodmap -e 'keysym Muhenkan = Super_L'
+if whence xmodmap > /dev/null; then
+    xmodmap -e 'keysym Muhenkan = Super_L'
+fi
 
 # aliases
 
